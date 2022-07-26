@@ -26,6 +26,7 @@ def setup(request):
     yield
     driver.close()
 
+#screenshots
 
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):
